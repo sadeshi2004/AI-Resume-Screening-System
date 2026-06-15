@@ -163,7 +163,7 @@ with st.sidebar:
 
     status_html = ''
     if model_loaded:
-        status_html = '<div class="sidebar-badge">Model: resume_model.pkl (loaded)</div>'
+        status_html = '<div class="sidebar-badge">Machine Learning Model Ready</div>'
     else:
         status_html = '<div class="sidebar-badge">Model: fallback (not loaded)</div>'
 
